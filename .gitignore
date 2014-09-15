@@ -1,36 +1,13 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# Asset files to ignore
+*.jpg
+*.png
+*.mov
 
-# Folder config file
-Desktop.ini
+# Generated files
+*.swf
+RECOVER*.fla
+obj/
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# System files
+thumbs.db
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Icon must ends with two \r.
-Icon
-
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes

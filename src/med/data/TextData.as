@@ -1,0 +1,1 @@
+package med.data {	public class TextData {				public var type:String;		public var text:String;				public function TextData(type:String, text:String) {			this.type = type;			this.text = text;					}			}}
