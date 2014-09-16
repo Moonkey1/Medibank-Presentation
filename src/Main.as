@@ -31,6 +31,7 @@ package {
 	import med.display.ScreenSaverOverlay;
 	import med.display.StoryContent;
 	import med.display.VideoContent;
+	import med.infographic.Infographic;
 	import med.infographic.InfographicData;
 
 	public class Main extends Sprite {
@@ -287,7 +288,7 @@ package {
 					
 				case "infographic":
 					var infographicXML:XML = xml.Infographic[0];
-					content = new InfographicContent(color, new InfographicData(infographicXML));
+					content = new InfographicContent(color, new InfographicData(infographicXML));					
 					break;
 			}
 			return content;

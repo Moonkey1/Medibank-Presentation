@@ -31,6 +31,10 @@
 	<Infographic id="presentation">
 		<InfographicColors color1="#e4002b" color2="#FFFFFF" color3="#EC4D6B" />
 
+		<!-- Dead time at start to allow fullscreen -->
+		<slide type="splash_text" duration="2000">
+		</slide>
+		
 		<!-- Intro -->
 		<slide type="center_text_box" duration="4000" animateOn="squash" animateOff="squash">
 			<appearance textColor="1" boxColor="2"/>
@@ -112,17 +116,20 @@ in meeting them.</featuredText>
 	 
 		 
 		<!-- 2 - Experts in mental health counselling -->
-		<!-- Not done - grab stuff form youtube
-		<slide type="center_text_box" duration="4000" animateOn="squash" animateOff="none">
-			<appearance textColor="1" boxColor="2"/>
-			<featuredText>[Placeholder]
-Experts in mental health counselling</featuredText>			
-		</slide>
-		-->
-		
-		<!-- 3 - Responding to Government initiatives -->
 		<slide type="splash_text" duration="4000">
-			<startPoint />
+			<text>Experts in mental health counselling</text>				
+		</slide>
+		<slide type="video" duration="13000" animateOn="wipe_from_left" animateOff="wipe_from_top">
+			<appearance boxColor="1" wipeColor="1" />
+			<video url="assets/presentation/beyondblue/I_Am_Anxiety.mp4" sourceWidth="720" sourceHeight="576" scale="auto" volume="0" />
+		</slide>
+		<slide type="video" duration="5100" animateOn="wipe_from_bottom" animateOff="wipe_from_left">
+			<appearance boxColor="1" wipeColor="1" />
+			<video url="assets/presentation/beyondblue/Subtle_Racism.mp4" sourceWidth="720" sourceHeight="576" scale="auto" volume="0" />
+		</slide>
+		 
+		<!-- 3 - Responding to Government initiatives -->
+		<slide type="splash_text" duration="4000" >
 			<text>Responding to Government initiatives</text>				
 			<Image url="assets/presentation/royal_commission.jpg" x="0" y="120" scale="0.5" />
 		</slide>
@@ -158,10 +165,26 @@ ability to respond.</featuredText>
 
 		<!-- 4 - Human Services expertise -->
 		<slide type="splash_text" duration="4000">
+			<startPoint />
 			<text>Human Services expertise</text>				
-			<Image url="assets/presentation/1800respect.png" x="0" y="100" scale="0.6" />
+			<Image url="assets/presentation/1800respect/1800respect2.png" x="0" y="120" scale="0.45" />
 		</slide>
-		<!-- Video slide - Auslan-->
+		<slide type="splash_text" duration="4000">
+			<Image url="assets/presentation/1800respect/DV1.png" scale="0.55" />
+		</slide>
+		<slide type="splash_text" duration="4000">
+			<Image url="assets/presentation/1800respect/SA1.png" scale="0.55" />
+		</slide>
+		<slide type="splash_text" duration="4000">
+			<Image url="assets/presentation/1800respect/SA2.png" scale="0.55" />
+		</slide>
+		<slide type="splash_text" duration="4000">
+			<Image url="assets/presentation/1800respect/SA3.png" scale="0.55" />
+		</slide>
+		<slide type="video" duration="6070" animateOn="wipe_from_left" animateOff="wipe_from_left">
+			<appearance boxColor="1" wipeColor="1" />
+			<video url="assets/presentation/1800respect/Auslan.mp4" sourceWidth="1280" sourceHeight="720" scale="0.8" volume="0" />
+		</slide>
 		<slide type="center_text_box" duration="4000" animateOn="squash" animateOff="squash">
 			<appearance textColor="1" boxColor="2"/>
 			<featuredText>Improving the lives of women & children impacted by domestic violence & sexual assault.</featuredText>			
@@ -192,6 +215,7 @@ ability to respond.</featuredText>
 			<box topText="Trauma informed counselling services" />
 		</slide>	
 		  -->
+		  
 		 
 		<!-- Reducing the burden of chronic disease -->
 		<slide type="splash_text" duration="4000">
@@ -232,7 +256,37 @@ ability to respond.</featuredText>
 		
 		 
 		<!-- Image grid -->
-		<!-- Not done -->		
+		<slide type="splash_text" duration="2000">
+			<text>Nurse Triage</text>				
+		</slide>
+		<slide type="splash_text" duration="2000">
+			<text>Mental Health</text>				
+		</slide>
+		<slide type="splash_text" duration="2000">
+			<text>Health Coaching & support</text>				
+		</slide>		
+		<slide type="splash_text" duration="2000">
+			<text>Mi Health</text>				
+		</slide>
+		<slide type="splash_text" duration="2000">
+			<text>Garrison Health Services</text>				
+		</slide>
+		<slide type="splash_text" duration="2000">
+			<text>After Hours GP</text>				
+		</slide>
+		<slide type="splash_text" duration="2000">
+			<text>NZ services including Midlands, ACC, HealthLine</text>				
+		</slide>
+		<slide type="splash_text" duration="2000">
+			<text>1.7 million triage calls</text>				
+		</slide>
+		<slide type="splash_text" duration="2000">
+			<text>190,000 mental health interactions</text>				
+		</slide>
+		<slide type="splash_text" duration="2000">
+			<text>60,000 chronic disease calls</text>				
+		</slide>
+		
 		 
 		 <!-- Stats and final -->
 		<slide type="flip_number">
