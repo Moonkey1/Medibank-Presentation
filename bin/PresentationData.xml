@@ -26,947 +26,255 @@
 		</ScreenSaverContent>
 		
 		<Content type="Infographic">
-		<Infographic id="vision_graphic">
-			<InfographicColors color1="#e4002b" color2="#FFFFFF" color3="#EC4D6B" />
-						
-			<slide type="splash_text" duration="4000" animateOff="none" >
-				<text>OUR VISION.</text>				
-			</slide>
-			<slide type="video" duration="6000" animateOn="wipe_from_left" animateOff="wipe_from_top">
-				<video url="assets/vision/Generation Better.mp4" startTime="0" sourceWidth="640" sourceHeight="360" scale="auto" volume="0" />
-				<appearance boxColor="1" wipeColor="1" />
-				<textstate duration="6000">
-					<text type="splash">HEALTH IS ONE OF THE BIGGEST
-CHALLENGES FACING AUSTRALIAN SOCIETY.</text>
-				</textstate>
-			</slide>
-			
-			<slide type="people_graph">
-				<appearance backgroundColor="1" boxColor="3" />
-				<graphstate value="63" featuredText="63" usePercentage="true" topText="" bottomText="We’re getting bigger.
-Obesity rates in Australia 
-are climbing faster than 
-anywhere else in the world 
-and 63% of Australian 
-adults are now overweight." />
-				<graphstate value="14" featuredText="14.4" usePercentage="true" topText="" bottomText="We’re getting older. 
-By 2060, Australians
-aged 75 or more are 
-expected to account for 
-14.4% of the population 
-(up from 6.4% in 2012). " />
-				<graphstate value="90" featuredText="90" usePercentage="true" topText="" bottomText="We’re getting sicker. 
-Chronic disease is on 
-the rise, accounting for 
-90% of all deaths in 2011." />
-				<graphstate value="189" featuredText="189" usePercentage="true" topText="" bottomText="And to cope with all of these 
-issues, we’re spending up big. 
-Over the past decade, 
-government spending on 
-healthcare has skyrocketed and 
-is projected to increase by 189%
-by 2033, reflecting 12.4% of GDP." />  
- 
-			</slide>			
-						
-			<slide type="video" duration="6000" animateOn="wipe_from_left" animateOff="wipe_from_top">
-				<video url="assets/vision/Generation Better.mp4" startTime="7" sourceWidth="640" sourceHeight="360" scale="auto" volume="0" />
-				<appearance boxColor="1" wipeColor="1" />
-				<textstate duration="6000">
-					<text type="splash">AT MEDIBANK, WE BELIEVE WE HAVE AN IMPORTANT
-ROLE TO PLAY IN MEETING THIS CHALLENGE, FROM
-PREVENTION THROUGH TO POLICY.</text>
-				</textstate>
-			</slide>
-			
-			
-			<slide type="floating_boxes">
-				<appearance boxColor="2" textColor="1" />
-				<featuredText>We are a leading health company. 
-And we stand for better health.</featuredText>	
-				<box topText="As well as being Australia’s largest health insurer, we also partner with government and other organisations to provide scalable, multi-channel healthcare services that reduce the burden on the public system while providing high quality, accessible care at an efficient cost. " />				
-				<box topText="At a policy level, we work with government to find long-term solutions to ensure all Australians and New Zealanders have access to healthcare. " />
-				<box topText="Better health is our business, and our purpose." />
-			</slide>
-			<slide type="timeline_number" duration="10000" markerFrequency="0" lineSpacing="22" alwaysShowYear="false">
-				<appearance backgroundColor="1" /> 
-				<featuredText>We've been on this journey for more than</featuredText>
-				<graphstate value="37" bottomText="years" featuredText="37" />		
-			</slide>
-			
-			<slide type="splash_text" duration="4000" animateOn="none" animateOff="none" >
-				<text type="corner">And today we provide an unmatched
-combination of health cover and healthcare
-services that deliver better health to millions
-of people in Australia and New Zealand.</text>
-			</slide>			
-			
-			<slide type="splash_text" duration="3000" animateOff="none" >
-				<text>HOW DO WE DO IT?</text>				
-			</slide>
-			<slide type="chapter_summary" duration="9000">
-				<wipe color="#653179" text="BY SUPPORTING PEOPLE TO ACHIEVE BETTER HEALTH OUTCOMES." animation="Floating" source="right" />
-				<wipe color="#ff9330" text="BY CREATING BETTER HEALTHCARE CONNECTIONS." animation="Sprouting" source="bottom" />
-				<wipe color="#00a2e0" text="AND BY BUILDING AN EFFECTIVE HEALTHCARE SYSTEM" animation="Sliding" source="left" />
-			</slide>
-			<slide type="sliding_tags" duration="10000">
-				<appearance textColor="1" backgroundColor="1" boxColor="2"/>
-				<featuredText></featuredText>
-				<tag size="large" startLeft="true">
-					<tagstate text="Better health is better for everyone" />				
-				</tag>			
-				<tag size="medium" startLeft="true">
-					<tagstate text="us," />		
-				</tag>
-				<tag size="medium" startLeft="false">
-					<tagstate text="our members," />			
-				</tag>			
-				<tag size="medium" startLeft="true">
-					<tagstate text="and the whole community" />				
-				</tag>					
-			</slide>	
-			
-			<slide type="reset" >
-				<text>Replay</text>
-			</slide>			
-			
-		</Infographic>
+	
+<!-- ---------------------------------------------------------------------------------------------------------- -->
+	<Infographic id="presentation">
+		<InfographicColors color1="#e4002b" color2="#FFFFFF" color3="#EC4D6B" />
+
+		<!-- Intro -->
+		<slide type="center_text_box" duration="4000" animateOn="squash" animateOff="squash">
+			<appearance textColor="1" boxColor="2"/>
+			<featuredText>Health is one of the 
+biggest challenges facing 
+Australian society.</featuredText>
+		</slide>			
+		<slide type="people_graph">
+			<appearance backgroundColor="1" boxColor="3" />
+			<graphstate value="63" featuredText="63" usePercentage="true" topText="" bottomText=
+"We’re getting bigger. 
+Obesity rates in Australia
+are climbing - 63% of us
+are now overweight." />			
+			<graphstate value="15" featuredText="15" usePercentage="true" topText="" bottomText=
+"We’re getting older. 
+By 2060, 15% of the population
+will be aged 75 years or more." />
+			<graphstate value="90" featuredText="90" usePercentage="true" topText="" bottomText=
+"We’re getting sicker.
+90% of all deaths are related
+to chronic disease." />
+			<graphstate value="3" featuredText="3" usePercentage="true" topText="" bottomText=
+"3% of Medibank members
+utilise almost 40% of
+benefit outlay." />
+			<graphstate value="189" featuredText="189" usePercentage="true" topText="" bottomText=
+"Government spending in
+healthcare will increase by
+189% over the next 15 years." />
+ 		</slide>			
+		<slide type="center_text_box" duration="4000" animateOn="squash" animateOff="none">
+			<appearance textColor="1" boxColor="2"/>
+			<featuredText>These healthcare challenges
+are significant.</featuredText>			
+		</slide>
+		<slide type="center_text_box" duration="4000" animateOn="rotate" animateOff="none">
+			<appearance textColor="1" boxColor="2"/>
+			<featuredText>Medibank has an
+important role to play
+in meeting them.</featuredText>			
+		</slide>
+		<slide type="sliding_tags" duration="10000">
+			<appearance textColor="1" backgroundColor="1" boxColor="2"/>
+			<featuredText>We are committed to supporting Australians and New Zealanders to</featuredText>			
+			<tag size="medium" startLeft="true">
+				<tagstate text="Navigate the healthcare system" />		
+			</tag>
+			<tag size="medium" startLeft="false">
+				<tagstate text="Get equitable access to healthcare" />			
+			</tag>			
+			<tag size="small" startLeft="true">
+				<tagstate text="Receive the type of healthcare they need in the right place at the right time." />				
+			</tag>					
+		</slide>	
+
+		 <!-- 1 - Telehealth services - Nurse Triage -->
+		<slide type="splash_text" duration="4000">
+			<text>Telehealth services - Nurse Triage</text>				
+		</slide>
+		<slide type="captioned_images">
+			<state duration="7000">
+				<Image url="assets/presentation/phone1.jpg" />
+				<caption>Over 1,000 health professionals deliver over 1.5 million healthcare interactions every year.</caption>
+				<caption>Through Australia’s largest work@home model.</caption>
+			</state>
+			<state duration="7000">
+				<Image url="assets/presentation/phone2.jpg" />
+				<caption>A high quality health service.</caption>
+				<caption>Available to consumers funded through the Federal Government and Medibank members.</caption>
+			</state>
+			<state duration="9000">
+				<Image url="assets/presentation/phone3.jpg" />
+				<caption>Nurse Triage results in 60,000 fewer emergency department visits each year.</caption>
+				<caption>5,000 fewer ambulance callouts.</caption>
+				<caption>Saving $30 million in public healthcare costs each year.</caption>
+			</state>
+		</slide>
+	 
+		 
+		<!-- 2 - Experts in mental health counselling -->
+		<!-- Not done - grab stuff form youtube
+		<slide type="center_text_box" duration="4000" animateOn="squash" animateOff="none">
+			<appearance textColor="1" boxColor="2"/>
+			<featuredText>[Placeholder]
+Experts in mental health counselling</featuredText>			
+		</slide>
+		-->
+		
+		<!-- 3 - Responding to Government initiatives -->
+		<slide type="splash_text" duration="4000">
+			<startPoint />
+			<text>Responding to Government initiatives</text>				
+			<Image url="assets/presentation/royal_commission.jpg" x="0" y="120" scale="0.5" />
+		</slide>
+		<slide type="center_text_box" duration="4000" animateOn="squash" animateOff="rotate">
+			<appearance textColor="1" boxColor="2"/>
+			<featuredText>Responding to the needs
+of Government to deliver major programs.</featuredText>			
+		</slide>
+		<slide type="center_text_box" duration="4000" animateOn="rotate" animateOff="squash">
+			<appearance textColor="1" boxColor="2"/>
+			<featuredText>Counsellor-led model providing support for people reporting their experience of institutional abuse.</featuredText>			
+		</slide>
+		<slide type="flip_number">
+			<appearance backgroundColor="1" />
+			<graphstate value="15000" featuredText="calls" topText="Over" />		
+		</slide>		
+		<slide type="flip_number">
+			<appearance backgroundColor="1" />
+			<graphstate value="6000" featuredText="emails received." topText="&" />		
+		</slide>		
+		<slide type="center_text_box" duration="4000" animateOn="squash" animateOff="squash">
+			<appearance textColor="1" boxColor="2"/>
+			<featuredText>A critical part of the
+Royal Commission's
+ability to respond.</featuredText>
+		</slide>
+		<slide type="center_text_box" quote="true" duration="4000" animateOn="zoom" animateOff="squash">
+			<appearance textColor="2" backgroundColor="1" boxColor="3"/>
+			<featuredText>Medibank is so full of clinical wisdom & experience of responding to a range of calls.</featuredText>
+			<quoteBy>Julie Blythe (RCISS Clinical Advisor)</quoteBy>
+		</slide>
+		
+
+		<!-- 4 - Human Services expertise -->
+		<slide type="splash_text" duration="4000">
+			<text>Human Services expertise</text>				
+			<Image url="assets/presentation/1800respect.png" x="0" y="100" scale="0.6" />
+		</slide>
+		<!-- Video slide - Auslan-->
+		<slide type="center_text_box" duration="4000" animateOn="squash" animateOff="squash">
+			<appearance textColor="1" boxColor="2"/>
+			<featuredText>Improving the lives of women & children impacted by domestic violence & sexual assault.</featuredText>			
+		</slide>
+		<slide type="sliding_tags" duration="13000">
+			<appearance textColor="1" backgroundColor="1" boxColor="2"/>
+			<featuredText>Counselling for survivors and support services for front-line workers to support their clients:</featuredText>			
+			<tag size="medium" startLeft="true">
+				<tagstate text="Support videos" />		
+			</tag>
+			<tag size="medium" startLeft="false">
+				<tagstate text="Online services" />			
+			</tag>			
+			<tag size="medium" startLeft="true">
+				<tagstate text="Resilience tools" />				
+			</tag>					
+			<tag size="medium" startLeft="false">
+				<tagstate text="Trauma informed counselling services" />				
+			</tag>					
+		</slide>
+		 <!-- Other option
+		<slide type="floating_boxes">
+			<appearance textColor="1" backgroundColor="1" boxColor="2"/>
+			<featuredText>Counselling for survivors and support services for front-line workers to support their clients:</featuredText>			
+			<box topText="Support videos" />
+			<box topText="Online services" />
+			<box topText="Resilience tools" />
+			<box topText="Trauma informed counselling services" />
+		</slide>	
+		  -->
+		 
+		<!-- Reducing the burden of chronic disease -->
+		<slide type="splash_text" duration="4000">
+			<text>Reducing the burden of chronic disease</text>				
+		</slide>
+		<slide type="center_text_box" duration="4000" animateOn="squash" animateOff="squash">
+			<appearance textColor="1" boxColor="2"/>
+			<featuredText>Leading world’s best practice in chronic disease management & integrated care.</featuredText>
+		</slide>
+		<slide type="sliding_tags" duration="10000">
+			<appearance textColor="1" backgroundColor="1" boxColor="2"/>
+			<featuredText>Triple aim:</featuredText>			
+			<tag size="medium" startLeft="true">
+				<tagstate text="Reduce healthcare costs" />		
+			</tag>
+			<tag size="medium" startLeft="false">
+				<tagstate text="Improve clinical outcomes" />			
+			</tag>			
+			<tag size="medium" startLeft="true">
+				<tagstate text="Improve patient satisfaction" />				
+			</tag>					
+		</slide>
+		<slide type="splash_text" duration="4000">
+			<Image url="assets/presentation/CarePoint.jpg" x="0" y="0" scale="0.6" />
+		</slide>
+		<slide type="splash_text" duration="4000">
+			<Image url="assets/presentation/CareFirst.jpg" x="0" y="0" scale="0.6" />
+		</slide>
+		<slide type="floating_boxes">
+			<appearance textColor="1" backgroundColor="1" boxColor="2"/>
+			<box topText="Partnering with State government & primary care providers" />
+			<box topText="Addressing the healthcare needs of the chronically ill" />
+			<box topText="Supporting those in most need of help" />
+			<box topText="Those who are frequently accessing health services" />
+			<box topText="And are lost in the complexity of a fragmented healthcare system" />
+			<box topText="Reducing the burden on the individual and the healthcare system" />
+		</slide>	
+		
+		 
+		<!-- Image grid -->
+		<!-- Not done -->		
+		 
+		 <!-- Stats and final -->
+		<slide type="flip_number">
+			<appearance backgroundColor="1" />
+			<graphstate value="1700000" featuredText="Triage calls" />		
+		</slide>		
+		<slide type="flip_number">
+			<appearance backgroundColor="1" />
+			<graphstate value="190000" featuredText="Mental health interactions" />		
+		</slide>		
+		<slide type="flip_number">
+			<appearance backgroundColor="1" />
+			<graphstate value="60000" featuredText="Chronic disease calls" />		
+		</slide>		
+		<slide type="center_text_box" duration="4000" animateOn="squash" animateOff="none">
+			<appearance textColor="1" boxColor="2"/>
+			<featuredText>Medibank
+For better health</featuredText>			
+		</slide>
+		
+	</Infographic>
+<!-- ---------------------------------------------------------------------------------------------------------- -->
+	
+
+
+<!--
+		<slide type="center_text_box" duration="4000" animateOn="rotate" animateOff="none">
+			<appearance textColor="1" boxColor="2"/>
+			<featuredText>We are committed to supporting Australians and New Zealanders to navigate the healthcare system.</featuredText>			
+		</slide>
+		<slide type="center_text_box" duration="4000" animateOn="rotate" animateOff="none">
+			<appearance textColor="1" boxColor="2"/>
+			<featuredText>Get equitable access to healthcare.</featuredText>			
+		</slide>
+		<slide type="center_text_box" duration="4000" animateOn="rotate" animateOff="none">
+			<appearance textColor="1" boxColor="2"/>
+			<featuredText>Receive the type of healthcare they need in the right place at the right time.</featuredText>			
+		</slide>
+-->
+
 		</Content>
 	</Screen>	
-	
-	
-	
-	
-	<Screen id="pong">
-		<Colour>#1B75BB</Colour>		
-		<Handle>AUSTRALIAN OPEN 2015.</Handle>
-		
-		<Content type="Pong">
-			<Title1>PROUD SPONSORS</Title1>
-			<Title2>AUSTRALIAN OPEN 2015</Title2>
-		</Content>
-	</Screen>
-
-	
-	<Screen id="rate1">
-		<Colour>#F69220</Colour>		
-		<Handle>HOW DO YOU RATE HEATHCARE.</Handle>
-		
-		<Content type="Rate">
-			<Title>HOW DO YOU
-RATE HEALTHCARE
-IN AUSTRALIA?</Title>
-			<Label0>POOR</Label0>
-			<Label50>GOOD</Label50>
-			<Label100>EXCELLENT</Label100>
-		</Content>
-	</Screen>
-		
-	
-	
-	<Screen id="graph1">
-		<Colour>#ED4135</Colour>
-		<Handle>A BETTER AUSTRALIA.</Handle>
-		
-		<Content type="Graph">
-			<Title>A BETTER AUSTRALIA</Title>
-			<Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse leo nisl, consequat non metus ut, lobortis dignissim nisl. Mauris feugiat ornare sodales. Aliquam semper orci sit amet pulvinar pulvinar.</Text>
-			<Graph>
-				<Text>55,000</Text>
-				<Bar value="0.3" text="2011" />
-				<Bar value="1" text="2012" />
-				<Bar value="0.4" text="2013" />
-				<Bar value="0.2" text="2014" />
-			</Graph>
-		</Content>
-	</Screen>
-	
-	
-
-	<Screen id="vision">
-		<Colour>#e4002b</Colour>
-		<Handle>OUR VISION.</Handle>
-		
-		<ScreenSaverContent type="Infographic">
-			<ScreenSaverText>OUR VISION.</ScreenSaverText>
-			
-			<Infographic>
-				<slide type="splash_text" duration="1" />
-				<slide type="video">
-					<video url="assets/vision/Generation Better.mp4" startTime="0" sourceWidth="640" sourceHeight="360" scale="auto" volume="0" />
-				</slide>
-			</Infographic>
-		</ScreenSaverContent>
-		
-		<Content type="Infographic">
-		<Infographic id="vision_graphic">
-			<InfographicColors color1="#e4002b" color2="#FFFFFF" color3="#EC4D6B" />
-						
-			<slide type="splash_text" duration="4000" animateOff="none" >
-				<text>OUR VISION.</text>				
-			</slide>
-			<slide type="video" duration="6000" animateOn="wipe_from_left" animateOff="wipe_from_top">
-				<video url="assets/vision/Generation Better.mp4" startTime="0" sourceWidth="640" sourceHeight="360" scale="auto" volume="0" />
-				<appearance boxColor="1" wipeColor="1" />
-				<textstate duration="6000">
-					<text type="splash">HEALTH IS ONE OF THE BIGGEST
-CHALLENGES FACING AUSTRALIAN SOCIETY.</text>
-				</textstate>
-			</slide>
-			
-			<slide type="people_graph">
-				<appearance backgroundColor="1" boxColor="3" />
-				<graphstate value="63" featuredText="63" usePercentage="true" topText="" bottomText="We’re getting bigger.
-Obesity rates in Australia 
-are climbing faster than 
-anywhere else in the world 
-and 63% of Australian 
-adults are now overweight." />
-				<graphstate value="14" featuredText="14.4" usePercentage="true" topText="" bottomText="We’re getting older. 
-By 2060, Australians
-aged 75 or more are 
-expected to account for 
-14.4% of the population 
-(up from 6.4% in 2012). " />
-				<graphstate value="90" featuredText="90" usePercentage="true" topText="" bottomText="We’re getting sicker. 
-Chronic disease is on 
-the rise, accounting for 
-90% of all deaths in 2011." />
-				<graphstate value="189" featuredText="189" usePercentage="true" topText="" bottomText="And to cope with all of these 
-issues, we’re spending up big. 
-Over the past decade, 
-government spending on 
-healthcare has skyrocketed and 
-is projected to increase by 189%
-by 2033, reflecting 12.4% of GDP." />  
- 
-			</slide>			
-						
-			<slide type="video" duration="6000" animateOn="wipe_from_left" animateOff="wipe_from_top">
-				<video url="assets/vision/Generation Better.mp4" startTime="7" sourceWidth="640" sourceHeight="360" scale="auto" volume="0" />
-				<appearance boxColor="1" wipeColor="1" />
-				<textstate duration="6000">
-					<text type="splash">AT MEDIBANK, WE BELIEVE WE HAVE AN IMPORTANT
-ROLE TO PLAY IN MEETING THIS CHALLENGE, FROM
-PREVENTION THROUGH TO POLICY.</text>
-				</textstate>
-			</slide>
-			
-			
-			<slide type="floating_boxes">
-				<appearance boxColor="2" textColor="1" />
-				<featuredText>We are a leading health company. 
-And we stand for better health.</featuredText>	
-				<box topText="As well as being Australia’s largest health insurer, we also partner with government and other organisations to provide scalable, multi-channel healthcare services that reduce the burden on the public system while providing high quality, accessible care at an efficient cost. " />				
-				<box topText="At a policy level, we work with government to find long-term solutions to ensure all Australians and New Zealanders have access to healthcare. " />
-				<box topText="Better health is our business, and our purpose." />
-			</slide>
-			<slide type="timeline_number" duration="10000" markerFrequency="0" lineSpacing="22" alwaysShowYear="false">
-				<appearance backgroundColor="1" /> 
-				<featuredText>We've been on this journey for more than</featuredText>
-				<graphstate value="37" bottomText="years" featuredText="37" />		
-			</slide>
-			
-			<slide type="splash_text" duration="4000" animateOn="none" animateOff="none" >
-				<text type="corner">And today we provide an unmatched
-combination of health cover and healthcare
-services that deliver better health to millions
-of people in Australia and New Zealand.</text>
-			</slide>			
-			
-			<slide type="splash_text" duration="3000" animateOff="none" >
-				<text>HOW DO WE DO IT?</text>				
-			</slide>
-			<slide type="chapter_summary" duration="9000">
-				<wipe color="#653179" text="BY SUPPORTING PEOPLE TO ACHIEVE BETTER HEALTH OUTCOMES." animation="Floating" source="right" />
-				<wipe color="#ff9330" text="BY CREATING BETTER HEALTHCARE CONNECTIONS." animation="Sprouting" source="bottom" />
-				<wipe color="#00a2e0" text="AND BY BUILDING AN EFFECTIVE HEALTHCARE SYSTEM" animation="Sliding" source="left" />
-			</slide>
-			<slide type="sliding_tags" duration="10000">
-				<appearance textColor="1" backgroundColor="1" boxColor="2"/>
-				<featuredText></featuredText>
-				<tag size="large" startLeft="true">
-					<tagstate text="Better health is better for everyone" />				
-				</tag>			
-				<tag size="medium" startLeft="true">
-					<tagstate text="us," />		
-				</tag>
-				<tag size="medium" startLeft="false">
-					<tagstate text="our members," />			
-				</tag>			
-				<tag size="medium" startLeft="true">
-					<tagstate text="and the whole community" />				
-				</tag>					
-			</slide>	
-			
-			<slide type="reset" >
-				<text>Replay</text>
-			</slide>			
-			
-		</Infographic>
-		</Content>
-	</Screen>
-	
-	
-	
-	<Screen id="art1">
-		<Colour>#653279</Colour>
-		<Handle>IS IT TIME TO UNPLUG?</Handle>
-		
-		<ScreenSaverContent type="Infographic" alpha="0.3">
-			<ScreenSaverText>IS IT TIME
-TO UNPLUG?</ScreenSaverText>
-
-			<Infographic id="art1_graphic">
-				<InfographicColors color1="#653279" color2="#FFFFFF" color3="#B0008E" color4="#7b4e8e" color5="#845b94" color6="#b0018d" />
-				
-				<slide type="splash_text" duration="1" />
-				<slide type="time_dials">
-					<title></title>
-					<subtitle></subtitle>
-					<appearance graphColor1="5" selectionColor="6" />
-					
-					<dial type="winding" title="" />
-					<dial type="winding" title="" />
-				</slide>
-			</Infographic>
-		</ScreenSaverContent>
-		
-		<Content type="Infographic">
-		<Infographic id="art1_graphic">
-			<InfographicColors color1="#653279" color2="#FFFFFF" color3="#B0008E" color4="#7b4e8e" color5="#845b94" color6="#b0018d" />
-						
-			<slide type="splash_text" duration="4000" animateOff="none" >
-				<text>IS IT TIME
-TO UNPLUG?</text>				
-			</slide>
-			
-			<slide type="time_dials">
-				<title>How many hours a day do you use a screen?</title>
-				<subtitle>Drag the hands to show your usage</subtitle>
-				<appearance graphColor1="5" selectionColor="6" />
-				
-				<dial type="input" title="Work or study" variable="work" value="2" />
-				<dial type="input" title="Leisure" variable="leisure" value="2" />
-			</slide>
-			<slide type="splash_text" duration="4000" animateOff="none" >
-				<text textScale="0.85">A NEW MEDIBANK STUDY FINDS WE’RE AVERAGING
-NINE HOURS A DAY LOOKING AT SCREENS.</text>
-			</slide>
-			<slide type="time_dials">
-				<title>Work or study</title>
-				<subtitle>Average hours per day</subtitle>
-				<appearance graphColor1="5" selectionColor="6" />
-				
-				<dial type="display" title="Australia" value="3" />
-				<dial type="display" title="You" variable="work" />
-			</slide>
-			<slide type="time_dials">
-				<title>Leisure</title>
-				<subtitle>Average hours per day</subtitle>
-				<appearance graphColor1="5" selectionColor="6" />
-				
-				<dial type="display" title="Australia"value="6" />
-				<dial type="display" title="You" variable="leisure" />
-			</slide>
-			<slide type="splash_text" duration="4000" animateOff="none" >
-				<text textScale="0.85">AUSTRALIAN ADULTS ARE SPENDING MORE TIME
-IN FRONT OF SCREENS THAN SLEEPING.</text>
-			</slide>						
-			<slide type="people_graph">
-				<appearance backgroundColor="1" boxColor="3" />
-				<graphstate value="60" featuredText="60" usePercentage="true" topText="" bottomText="More than 60% of 
-respondents with children 
-agreed that screen time 
-affects their family time, 
-and their family's health." />
-				<graphstate value="57" featuredText="57" usePercentage="true" topText="" bottomText="57% of these 
-want to cut back 
-on screen time." />
-				<graphstate value="20" featuredText="20" usePercentage="true" textOnRightEdge="true" topText="" bottomText="And one in five say that 
-if they weren't in front of 
-a screen they would be 
-involved in a physical 
-activity instead such as 
-going for a run, riding a 
-bike or going for a walk." />
-			</slide>			
-			<slide type="pick3_input">
-				<title>What would you do instead?</title>
-				<subtitle>Tap three options</subtitle>
-				<appearance graphColor1="4" selectionColor="6" />
-				
-				<option id="A" text="Ride a bike" />
-				<option id="B" text="Time with the family" />
-				<option id="C" text="Go for a walk" />
-				<option id="D" text="Shop" />
-				<option id="E" text="A hobby" />
-				<option id="F" text="Call or visit a friend" />
-				<option id="G" text="Cook" />
-				<option id="H" text="Read a book" />
-				<option id="I" text="Sleeping" />
-				<option id="J" text="Go for a run" />
-				<option id="K" text="Go for a drive" />
-				<option id="L" text="Clean the house" />
-			</slide>
-			<slide type="pick3_results">
-				<title>How you compare</title>
-				<appearance graphColor1="4" graphColor2="5" selectionColor="6" />
-
-				<bar id="A" text="Cycling" value="0.3333333333333333" />
-				<bar id="B" text="Family time" value="0.4219931271477663" />
-				<bar id="C" text="Walking" value="0.511340206185567" />				
-				<bar id="G" text="Cooking" value="0.888659793814433" />
-				<bar id="F" text="Socialising" value="1" />
-				<bar id="D" text="Shopping" value="0.888659793814433" />				
-				<bar id="H" text="Reading" value="0.6666666666666667" />
-				<bar id="E" text="Hobbies" value="0.4446735395189003" />
-				<bar id="I" text="Sleeping" value="0.3333333333333333" />
-				<bar id="K" text="Drive" value="0.2701030927835052" />
-				<bar id="L" text="House-keeping" value="0.4446735395189003" />
-				<bar id="J" text="Run" value="0.3333333333333333" />
-			</slide>
-			
-			<slide type="splash_text" duration="4000" animateOff="none" >
-				<text>HOW DOES THIS IMPACT OUR HEALTH?</text>
-			</slide>			
-			
-			<slide type="floating_boxes"> 
-				<appearance textColor="2" backgroundColor="1" boxColor="3"/>
-				<featuredText>For this study, 1505 Australians were
-asked about their views on screen usage
-and its impact on health.</featuredText>	
-				<box topText="A clear conclusion has been found: people suspect there is something concerning about the amount of time they spend in front of screens, but they are uncertain about exactly what the health impact is." />	
-				<box topText="There is uncertainty about health risks. While 62% of respondents know that reduced physical activity is a consequence of too much screen time, almost half of those surveyed failed to recognise the likelihood of other health risks, which include obesity, attention difficulty, low self-esteem and depression." />
-				<box topText="“There needs to be much greater community education around what are safe levels of screen time and more programs are needed to encourage people to unplug and get involved in other recreational activities.”
-
-Dr Ian Boyd, Medibank" />
-				<box topText="“The benefits of unplugging and spending more time being active are clear for both adults and children, and we need to be encouraging this before people accept our over-use of screens as the norm.”
-
-Dr Ian Boyd, Medibank"/>			
-			</slide>
-			
-			<slide type="reset" >
-				<text>Replay</text>
-			</slide>			
-				
-		</Infographic>
-		</Content>
-	</Screen>	
-	
-	
-
-	<Screen id="doc2">
-		<Colour>#2C5697</Colour>
-		<Handle>MEETING THE MENTAL HEALTH CHALLENGE.</Handle>
-
-		<ScreenSaverContent type="Infographic">
-			<ScreenSaverText>MEETING THE MENTAL
-HEALTH CHALLENGE.</ScreenSaverText>
-
-			<Infographic>
-				<slide type="splash_text" duration="1" />
-				<slide type="video">
-					<video url="assets/vision/Generation Better.mp4" startTime="34" sourceWidth="640" sourceHeight="360" scale="auto" volume="0" />
-				</slide>
-			</Infographic>
-		</ScreenSaverContent>
-		
-		<Content type="Infographic">
-		<Infographic id="doc2_graphic">
-			<InfographicColors color1="#2C5697" color2="#FFFFFF" color3="#00A3E0" />
-			
-			<slide type="splash_text" duration="4000">
-				<text>MEETING THE MENTAL
-HEALTH CHALLENGE.</text>
-				<Image url="assets/doc2/Medibank_Logo.png" x="-100" y="170" scale="0.4" />
-				<Image url="assets/doc2/beyondblue_mono.png" x="100" y="170" scale="0.2" />
-			</slide>
-			<slide type="people_graph">
-				<appearance backgroundColor="1" boxColor="3" />
-				<graphstate value="20" featuredText="1 in 5" usePercentage="false" textOnRightEdge="true" topText="" bottomText="Every year, more than 
-one in five Australians
-experiences a mental 
-illness." />
-				<graphstate value="50" featuredText="50" usePercentage="true" topText="" bottomText="Almost half the Australian
-population will experience a
-mental illness at some point 
-in their life." />
-			</slide>
-			<slide type="flip_number">
-				<appearance backgroundColor="1" />
-				<graphstate value="1000000" featuredText="Australian adults will experience depression." topText="In any one year, about" />	
-				<graphstate value="2000000" featuredText="Australian adults will suffer from anxiety." topText="In any one year, about" />	
-			</slide>	
-			<slide type="floating_boxes">
-				<appearance textColor="2" backgroundColor="1" boxColor="3"/>
-				<featuredText></featuredText>	
-				<box value="6" text="Australians take their own life every day. Almost double the national road toll." />
-				<box topText="Suicide is Australia's biggest health crisis for people between 15 and 44." />
-			</slide>	
-			<slide type="spin_number">
-				<appearance textColor="2" backgroundColor="1" boxColor="3"/>
-				<graphstate value="28600000000" featuredText="Cost every year to support people with a mental illness in Australia, not including indirect costs like lost productivity." />	
-			</slide>
-			<slide type="splash_text" duration="4000" animateOff="none" >
-				<text textScale="0.85">MENTAL HEALTH IS AN ISSUE CLOSE 
-TO THE HEART OF MEDIBANK.</text>
-			</slide>
-			<slide type="splash_text" duration="4000" animateOff="none" >
-				<text textScale="0.85">AND WE BELIEVE AUSTRALIA HAS AN
-UNPRECEDENTED OPPORTUNITY
-TO MEET THE MENTAL HEALTH CHALLENGE.</text>
-			</slide>
-			<slide type="video" duration="12500" animateOn="wipe_from_left" animateOff="wipe_from_top">
-				<video url="assets/vision/Generation Better.mp4" startTime="34" sourceWidth="640" sourceHeight="360" scale="auto" volume="0" />
-				<appearance boxColor="3" wipeColor="1" />
-				<textstate duration="4000">
-					<text type="pop" position="bottomRight" size="medium">But major system changes are needed to get the best outcomes.</text>
-				</textstate>
-				<textstate duration="4000">
-					<text type="bottom">At Medibank we deliver programs that give Australians
-24/7 access to trained mental health professionals
-via online, telephone and face-to-face channels.</text>
-				</textstate>				
-				<textstate duration="4000">
-					<text type="pop" position="topLeft" size="large">We deliver mental health programs that give Australians access to better care.</text>
-				</textstate>
-			</slide>
-			<slide type="splash_text" duration="5000" animateOff="none" >
-				<text type="corner">We also partner with like-minded organisations
-such as [i]beyondblue[/i] to influence mental health
-policy and reform, and ultimately provide better
-care and life outcomes for all Australians.</text>
-			</slide>
-			
-			<slide type="reset" >
-				<text>Replay</text>
-			</slide>			
-			
-		</Infographic>
-		</Content>
-	</Screen>
-	
-	
-	<Screen id="info4">
-		<Colour>#2C5697</Colour>
-		<Handle>MEDIBANK COMMUNITY FUND.</Handle>
-		
-		<ScreenSaverContent type="Infographic">
-			<ScreenSaverText>MEDIBANK 
-COMMUNITY FUND.</ScreenSaverText>
-
-			<Infographic>
-				<slide type="splash_text" duration="1" />
-				<slide type="video">
-					<video url="assets/vision/Generation Better.mp4" startTime="13" sourceWidth="640" sourceHeight="360" scale="auto" volume="0" />
-				</slide>
-			</Infographic>
-		</ScreenSaverContent>
-		
-		<Content type="Infographic">
-		<Infographic id="info4_graphic">
-			<InfographicColors color1="#2C5697" color2="#FFFFFF" color3="#00A3E0"/>
-						
-			<slide type="splash_text" duration="4000">
-				<text textScale="1">MEDIBANK 
-COMMUNITY FUND.</text>
-			</slide>	
-			<slide type="sliding_tags" duration="7000">
-				<appearance textColor="2" backgroundColor="1" boxColor="3"/>
-				<featuredText>We link people to programs
-and activities that encourage:</featuredText>			
-				<tag size="medium" startLeft="true">
-					<tagstate text="Healthy eating" />				
-				</tag>	
-				<tag size="medium" startLeft="false">
-					<tagstate text="Mental and physical activity" />				
-				</tag>	
-				<tag size="medium" startLeft="true">
-					<tagstate text="Community connectedness" />				
-				</tag>	
-			</slide>
-			<slide type="splash_text" duration="4000" animateOff="none" >
-				<text textScale="1">HELPING THROUGH FUNDING.</text>
-			</slide>	
-			<slide type="spin_number">
-				<appearance textColor="2" backgroundColor="1" boxColor="3"/>
-				<graphstate value="600000" featuredText="In grants to 51 grassroots projects" />	
-				<graphstate value="1000000" featuredText="Invested in health and 
-wellbeing partnerships" />
-				<graphstate value="100000" featuredText="In disaster relief though 
-Australian Red Cross" />	
-				<graphstate value="100000" featuredText="Towards improving indigenous 
-health and wellbeing" />	
-			</slide>
-			<slide type="splash_text" duration="4000" animateOff="none" >
-				<text textScale="1">HELPING THROUGH PARTICIPATION.</text>
-			</slide>
-			<slide type="clock">
-				<appearance clockTextColor="3" />
-				<clockText>1067</clockText>
-				<featuredText>Hours of employee volunteering</featuredText>
-			</slide>
-			<slide type="people_graph">
-				<appearance backgroundColor="1" boxColor="3" />
-				<graphstate value="33" featuredText="1 in 3" usePercentage="false" topText="" bottomText="Australians 
-participated 
-in RU OK day." />
-			</slide>	
-			<slide type="floating_boxes">
-				<appearance textColor="2" backgroundColor="1" boxColor="3"/>
-				<featuredText></featuredText>	
-				<box value="68580" text="Participants in partner healthy living programs." />
-				<box value="200" text="Students involved in learning opportunities." />				
-			</slide>
-			<slide type="splash_text" duration="5000" animateOff="none" >
-				<text type="corner">Every aspect of the Medibank Community Fund
-approach is concerned with boosting long term 
-community health and wellbeing outcomes.</text>
-			</slide>
-			
-			<slide type="reset" >
-				<text>Replay</text>
-			</slide>			
-			
-		</Infographic>	
-		</Content>
-	</Screen>
-	
-	
-	<Screen id="doc7">
-		<Colour>#00a3e0</Colour>
-		<Handle>REWARDING BETTER HEALTH WITH FLYBUYS AND MEDIBANK.</Handle>
-		
-		<ScreenSaverContent type="Infographic" alpha="0.3">
-		<ScreenSaverText>REWARDING BETTER HEALTH
-WITH FLYBUYS AND MEDIBANK.</ScreenSaverText>	
-
-		<Infographic>
-			<InfographicColors color1="#00A3E0" color2="#FFFFFF" color3="#2C5697" />
-			<slide type="splash_text" duration="1" />
-			<slide type="hotspot">
-				<mode>auto</mode>
-				<appearance graphColor1="3" />
-				
-				<!-- Order these so sequential ones don't overlap -->
-				<hotspot x="-852" y="-45" dir="dr">
-					<Title>Medibank Icehouse</Title>
-					<Text>[b]2493 Steps[/b]
-105 Pearl River Rd, Docklands</Text>
-				</hotspot>				
-				<hotspot x="851" y="44" dir="dl">
-					<Title>Fitzroy Gardens</Title>
-					<Text>[b]3973 Steps[/b]
-East Melbourne</Text>
-				</hotspot>
-				<hotspot x="-482" y="314" dir="dr">
-					<Title>Docklands Park</Title>
-					<Text>[b]525 Steps[/b]
-Corner Harbour Esplanade and Bourke St Docklands</Text>
-				</hotspot>
-				<hotspot x="288" y="-160" dir="ur">
-					<Title>State Library of Victoria</Title>
-					<Text>[b]3018 Steps[/b]
-328 Swanston St, Melbourne</Text>
-				</hotspot>
-				<hotspot x="-122" y="-96" dir="ul">
-					<Title>Flagstaff Gardens</Title>
-					<Text>[b]2231 Steps[/b]
-West Melbourne</Text>
-				</hotspot>
-				<hotspot x="-378" y="262" dir="dr">
-					<Title>YMCA Docklands</Title>
-					<Text>[b]549 Steps[/b]
-4/100 Harbour Esplanade, Docklands</Text>
-				</hotspot>
-				<hotspot x="-186" y="160" dir="ur">
-					<Title>Southern Cross Station</Title>
-					<Text>[b]722 Steps[/b]
-Corner of Bourke St and Spencer St, Docklands</Text>
-				</hotspot>
-				<hotspot x="390" y="211" dir="ur">
-					<Title>Flinders Street Station</Title>
-					<Text>[b]3018 Steps[/b]
-Corner of Swanston St & Flinders St</Text>
-				</hotspot>
-				<hotspot x="-378" y="160" dir="dr">
-					<Title>Etihad Stadium</Title>
-					<Text>[b]131 Steps[/b]
-740 Bourke Street, Docklands</Text>
-				</hotspot>
-				
-				
-			</slide>				
-		</Infographic>
-		</ScreenSaverContent>
-		
-		
-		<Content type="Infographic">
-		<Infographic id="doc7_graphic">
-			<InfographicColors color1="#00A3E0" color2="#FFFFFF" color3="#2C5697" />
-
-			<slide type="splash_text" duration="4000">
-				<text>REWARDING BETTER HEALTH
-WITH FLYBUYS AND MEDIBANK.</text>
-				<Image url="assets/doc7/Medibank_Logo.png" x="0" y="170" scale="0.4" />
-				<!-- 
-				<Image url="assets/doc7/Medibank_Logo.png" x="-100" y="170" scale="0.4" />
-				<Image url="assets/doc7/Flybuys_Logo.png" x="100" y="170" scale="0.4" />
-				-->
-			</slide>
-
-			<slide type="video" duration="8000" animateOn="wipe_from_left" animateOff="wipe_from_left">
-				<appearance boxColor="1" wipeColor="1" />
-				<video url="assets/vision/Generation Better.mp4" startTime="22" sourceWidth="640" sourceHeight="360" scale="auto" volume="0" />
-				<textstate duration="4000">
-					<text type="splash" textScale="0.85">MEDIBANK HAS PARTNERED WITH FLYBUYS
-TO REWARD MEMBERS FOR BEING ACTIVE.</text>
-				</textstate>
-				<textstate>
-					<text type="splash" textScale="0.85">BY USING AN ACTIVITY TRACKER, MEMBERS WILL
-BE ABLE TO EARN FLYBUYS POINTS WHENEVER
-THEY REACH A DAILY 10,000 STEP GOAL.</text>
-				</textstate>
-			</slide>
-			<slide type="flip_number">
-				<appearance backgroundColor="1" />
-				<graphstate value="10000" featuredText="steps every day." topText="Healthy adults are recommended to take at least" />		
-				<graphstate value="10" featuredText="flybuys points." topText="For every 10,000 steps members can earn" />		
-			</slide>	
-			
-			<slide type="hotspot">
-				<Background>
-					<Image url="assets/doc7/map.png" scale="0.5" />
-				</Background>
-				
-				<appearance graphColor1="3" />
-				
-				<intro>
-					<splashText>USE THE MAP FOR IDEAS OF
-HOW TO BUILD UP YOUR STEPS.</splashText>
-				</intro>
-
-				<disclaimer>Steps shown are approximate
-distances based on an
-average male step.</disclaimer>
-
-				<hotspot x="-852" y="-45" dir="dr">
-					<Title>Medibank Icehouse</Title>
-					<Text>[b]2493 Steps[/b]
-105 Pearl River Rd, Docklands</Text>
-				</hotspot>				
-				<hotspot x="-482" y="314" dir="dr">
-					<Title>Docklands Park</Title>
-					<Text>[b]525 Steps[/b]
-Corner Harbour Esplanade and Bourke St Docklands</Text>
-				</hotspot>
-				<hotspot x="-378" y="262" dir="dr">
-					<Title>YMCA Docklands</Title>
-					<Text>[b]549 Steps[/b]
-4/100 Harbour Esplanade, Docklands</Text>
-				</hotspot>
-				<hotspot x="-378" y="160" dir="dr">
-					<Title>Etihad Stadium</Title>
-					<Text>[b]131 Steps[/b]
-740 Bourke Street, Docklands</Text>
-				</hotspot>
-				<hotspot x="-186" y="160" dir="ur">
-					<Title>Southern Cross Station</Title>
-					<Text>[b]722 Steps[/b]
-Corner of Bourke St and Spencer St, Docklands</Text>
-				</hotspot>
-				<hotspot x="-122" y="-96" dir="ul">
-					<Title>Flagstaff Gardens</Title>
-					<Text>[b]2231 Steps[/b]
-West Melbourne</Text>
-				</hotspot>
-				<hotspot x="288" y="-160" dir="ur">
-					<Title>State Library of Victoria</Title>
-					<Text>[b]3018 Steps[/b]
-328 Swanston St, Melbourne</Text>
-				</hotspot>
-				<hotspot x="390" y="211" dir="ur">
-					<Title>Flinders Street Station</Title>
-					<Text>[b]3018 Steps[/b]
-Corner of Swanston St & Flinders St</Text>
-				</hotspot>
-				<hotspot x="851" y="44" dir="dl">
-					<Title>Fitzroy Gardens</Title>
-					<Text>[b]3973 Steps[/b]
-East Melbourne</Text>
-				</hotspot>
-				
-				<resetButton>
-					<text>Replay</text>
-				</resetButton>
-				
-			</slide>
-			
-		</Infographic>
-		</Content>
-	</Screen>
-	
-	<Screen id="prof9">
-		<Colour>#009ca6</Colour>
-		<Handle>A HEALTHIER WAY OF WORKING.</Handle>
-
-		<ScreenSaverContent type="Infographic" alpha="0.3">
-			<ScreenSaverText>WE'RE EMBRACING 
-A HEALTHIER WAY OF WORKING.</ScreenSaverText>	
-
-			<Infographic>
-				<InfographicColors color1="#2C5697" color2="#FFFFFF" color3="#00A3E0" />
-			
-				<slide type="splash_text" duration="1" />
-				<slide type="hotspot">
-					<Background>
-						<Image url="assets/prof9/Building.png" scale="1.44" />
-					</Background>
-				</slide>
-				
-			</Infographic>
-		</ScreenSaverContent>
-				
-		<Content type="Infographic">
-		<Infographic id="prof9_info">
-			<InfographicColors color1="#009ca6" color2="#FFFFFF" color3="#76b82a" />
-			<slide type="splash_text" duration="4000" animateOff="none" >
-				<text>WE'RE EMBRACING 
-A HEALTHIER WAY OF WORKING.</text>
-			</slide>
-			<slide type="hotspot">
-				<Background>
-					<Image url="assets/prof9/Building.png" scale="1.44" />
-				</Background>
-
-				<appearance graphColor1="3" />
-				<intro>
-					<cornerText>Here at Medibank, to live our ‘For Better Health’ 
-purpose, we are embracing a healthier way of 
-working that will help us to be more collaborative 
-and productive… All part of Generation Better.</cornerText>
-				</intro>
-				<hotspot x="-266" y="-374" dir="dl">
-					<Text>The building is filled with flexible work and creative spaces, designed for closer collaboration between people.</Text>
-					<Image url="assets/prof9/Cumulus_people.jpg" />
-				</hotspot>
-				<hotspot x="-318" y="-122" dir="ul">
-					<Text>Rejuvenation spaces to help recharge.</Text>
-					<Image url="assets/prof9/Reflection_people_cropped.jpg" />
-				</hotspot>
-				<hotspot x="-366" y="258" dir="dl">
-					<Text>6 star green rating.</Text>
-				</hotspot>				
-				<hotspot x="-360" y="576" dir="ul">
-					<Text>A dynamic central atrium, linked by two staircases, breaks up the building’s almost 3000sqm floor plates and creates connections.</Text>
-					<Image url="assets/prof9/Medibank Atrium No.1.jpg" />
-				</hotspot>				
-				<hotspot x="292" y="-440" dir="dr">
-					<Text>A multipurpose sports court, internal bike storage and change room facilities make it easy for employees to incorporate physical activity into their day.</Text>
-					<Image url="assets/prof9/image003.jpg" />
-				</hotspot>
-				<hotspot x="322" y="-248" dir="dr">
-					<Text>An edible garden featuring seasonal fruit and vegetables and a demonstration kitchen next to the staff kitchen provides inspiration for fresh and healthy eating.</Text>
-					<Image url="assets/prof9/Edible Garden 2.png" />
-				</hotspot>
-				<hotspot x="348" y="68" dir="dr">
-					<Text>Collaborative and social settings to connect.</Text>
-					<Image url="assets/prof9/Medibank-016.jpg" />
-				</hotspot>
-				<hotspot x="326" y="576" dir="ur">
-					<Text>Green spaces inside and out provide better air quality and natural cooling, while spiral staircases create active connections between floors.</Text>
-					<Image url="assets/prof9/Medibank Atrium No.3.jpg" />
-				</hotspot>
-
-				
-				<resetButton>
-					<text>Replay</text>
-				</resetButton>
-				
-			</slide>
-			
-		</Infographic>
-		</Content>
-		
-	</Screen>
-
-	
-	<Screen id="prof1">
-		<Colour>#009ca6</Colour>
-		<Handle>MEET LEITH.</Handle>
-		
-		<ScreenSaverContent type="Infographic">
-			<ScreenSaverText>MEET LEITH.
-MEDIBANK NURSE.</ScreenSaverText>	
-
-			<Infographic>
-				<slide type="splash_text" duration="1" />
-				<slide type="video">
-					<video url="assets/prof1/MVI_0017.MOV" sourceWidth="1920" sourceHeight="1088" scale="auto" volume="0" />
-				</slide>				
-			</Infographic>
-		</ScreenSaverContent>
-				
-		<Content type="Infographic">
-		<Infographic id="prof1 infographic">
-			<InfographicColors color1="#009ca6" color2="#FFFFFF" color3="#76b82a" />
-			
-			<slide type="splash_text" duration="4000" animateOff="none" >
-				<text>MEET LEITH.
-MEDIBANK NURSE.</text>
-			</slide>		
-			
-			<slide type="video" duration="19000" animateOn="wipe_from_bottom" animateOff="wipe_from_bottom">
-				<video url="assets/prof1/MVI_0017.MOV" sourceWidth="1920" sourceHeight="1088" scale="auto" volume="0" />
-				<appearance boxColor="3" wipeColor="3" />
-				<!-- 
-				<textstate duration="4000">
-					<text type="splash">MEET LEITH.
-MEDIBANK NURSE.</text>
-				</textstate>
-				 -->
-				<textstate duration="5500"> <!-- 4000 -->
-					<!-- originally left, but covers her face -->
-					<text type="pop" position="right" size="medium">Leith is a registered nurse with more than 25 years’ experience.</text>
-				</textstate>
-				<textstate duration="5500"> <!-- 4000 -->
-					<!-- originally topleft, but covers her face -->
-					<text type="pop" position="topRight">One of 2,500 health professionals employed by Medibank.</text>
-				</textstate>
-				<textstate>
-					<text type="bottom">As part of the nation’s largest telephone triage, health advice and referral service, Leith assesses callers based on their symptoms before providing advice and recommendations on what care they need.</text>
-				</textstate>				
-			</slide>
-			
-			<slide type="splash_text" duration="4000" animateOn="none" animateOff="wipe" >
-				<appearance backdropColor="3" />
-				<text textScale="0.85">JUST ONE TELEHEALTH NURSE CAN
-SUPPORT 6,000 PATIENTS EACH YEAR.</text>
-			</slide>
-			<slide type="splash_text" duration="4000" animateOn="none" animateOff="none" >
-				<text type="corner">Like 85% of Medibank’s nurse workforce,
-Leith works from home as part of our
-work@home model.</text>
-			</slide>
-			<slide type="video" duration="13000" animateOn="wipe_from_left" animateOff="wipe_from_top">
-				<video url="assets/prof1/MVI_0038.MOV" sourceWidth="1920" sourceHeight="1088" scale="auto" volume="0" />
-				<appearance boxColor="3" wipeColor="1" />
-				<textstate>
-					<text type="pop" position="topright" size="small">5,000 fewer ambulance callouts.</text>
-					<text type="pop" position="left" size="medium">Every year, the service results in 60,000 fewer emergency department visits.</text>
-					<text type="pop" position="bottomRight" size="large">And savings of almost $30 million in public healthcare costs.</text>
-				</textstate>				
-			</slide>
-			 
-			<slide type="reset" >
-				<text>Replay</text>
-			</slide>			
-			
-		</Infographic>
-		</Content>		
-		
-	</Screen>
 	
 	
 </SwipeScreensData>
